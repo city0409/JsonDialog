@@ -1,0 +1,1 @@
+﻿{"name":"Lucy","dialog":"哈哈,what's up!"}
