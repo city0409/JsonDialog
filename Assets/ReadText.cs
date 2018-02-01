@@ -11,7 +11,7 @@ public class ReadText : MonoBehaviour
 	{
         string s = File.ReadAllText("Assets/file1.txt",System.Text.Encoding.UTF8);
         print(s);
-        s.Replace("/r", "");
+        s= s.Replace("/n", "");
         myDialog = JsonUtility.FromJson<CharacterDialog>(s);
 
         print(myDialog.dialog);
